@@ -1,12 +1,35 @@
-#header {
+header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   border-bottom-style: solid;
   display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-  justify-content: flex-start;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: auto;
+  color: MediumAquamarine;
+}
+
+.logo img {
+  padding: 0 10px;
+}
+
+nav {
+  display: block;
+  padding-right: 10px;
+}
+
+a {
+  color: black;
+}
+.nav li{
+  display: inline-block;
+  padding: 10px;
 }
